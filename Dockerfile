@@ -23,7 +23,7 @@ ADD ./startup.sh /opt/minecraft/
 RUN ["chmod", "+x", "/opt/minecraft/startup.sh"]
 RUN ["chmod", "+x", "/opt/minecraft/bedrock_server"]
 
-EXPOSE 19132
-EXPOSE 19133
+EXPOSE 7777
+EXPOSE 7777
 
 ENTRYPOINT ["/opt/minecraft/startup.sh", "/bin/bash"]
